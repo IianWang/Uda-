@@ -1,0 +1,41 @@
+/*
+ *
+ *   New Project - Responsive Admin Template
+ *   version 1.0
+ *
+*/
+/*Google fonts*/
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900);
+a, a:hover {
+  text-decoration: none !important;
+}
+
+*:focus {
+  outline: none !important;
+}
+
+html, body {
+  min-height: 100%;
+  height: 100%;
+}
+
+html.no-animations *, body.no-animations * {
+  -webkit-transition: none !important;
+  transition: none !important;
+}
+
+body {
+  background: #f1f5f7;
+  overflow-x: hidden !important;
+  overflow-y: hidden;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: relative;
+}
+
+.row, .form-horizontal .form-group {
+  margin-right: -10px;
+  margin-left: -10px;
+}
